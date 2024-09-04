@@ -1,0 +1,15 @@
+npx create-next-app@latest --experimental-app
+this is the run cmd : npm run dev
+npm install -D tailwindcss
+npx tailwindcss init
+        then copy content and incput css part 
+npm i -D daisyui@latest
+        in tailwind.config.js :   plugins: [require("daisyui")],
+npm install react-icons --save
+npm i json-server
+        IN PACKAGE.JSON FILE : under scripts : "json-server" : "json-server --watch data/todos.json --port 3001"
+        npm run json-server
+npm install uuid
+                import { v4 as uuidv4 } from 'uuid';
+                uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'    
+                npm i --save-dev @types/uuid
